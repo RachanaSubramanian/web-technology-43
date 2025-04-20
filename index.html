@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Technology 43</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #6200ea, #bb86fc);
+      color: white;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 25px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #ff5722;
+      color: white;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 25px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Reduced shadow for a softer look */
+      border-top: 2px solid #6200ea; /* Thinner top border */
+    }
+
+    section h2 {
+      color: #6200ea;
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+
+    section h3 {
+      color: #ff5722;
+      margin-top: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #6200ea;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #bb86fc;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #6200ea;
+      color: white;
+      margin-top: 40px;
+      border-top: 2px solid #bb86fc; /* Thinner footer border */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Web Technology 43</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#syllabus">Syllabus</a></li>
+          <li><a href="#notes">Theory Notes</a></li>
+          <li><a href="#lab">Lab Manual</a></li>
+          <li><a href="#reference">Reference</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Web Technology 43</h2>
+
+    <h3>👋 Greetings</h3>
+    <p>Hello and welcome! This website is your all-in-one portal for mastering Web Technology. Whether you're a student or an enthusiast, you're in the right place!</p>
+
+    <h3>🎯 Purpose of Web Technology</h3>
+    <ul>
+      <li>Understand how websites and web applications operate.</li>
+      <li>Learn HTML, CSS, JavaScript, and server-side programming.</li>
+      <li>Design and develop interactive and responsive sites.</li>
+      <li>Use tools and frameworks to build real-world projects.</li>
+      <li>Build a foundation for careers in tech and design.</li>
+    </ul>
+
+    <h3>🌟 Benefits of Learning Web Technology</h3>
+    <ul>
+      <li>Develop real-world web applications from scratch.</li>
+      <li>Improve logical thinking and problem-solving skills.</li>
+      <li>Boost your career with in-demand development skills.</li>
+      <li>Express creativity through visual and interactive content.</li>
+      <li>Prepare for advanced tools like React, Node.js, etc.</li>
+    </ul>
+  </section>
+
+  <section id="syllabus">
+    <h2>Syllabus</h2>
+    <ul>
+      <li>Introduction to Web Technologies</li>
+      <li>World Wide Web & Internet Fundamentals</li>
+      <li>HTML: Structure and Semantic Markup</li>
+      <li>CSS: Styling and Layout Design</li>
+      <li>HTML5 and Advanced HTML Features</li>
+      <li>JavaScript: Client-Side Scripting</li>
+      <li>Web Design Principles and Usability</li>
+      <li>Web Forms and User Input Handling</li>
+      <li>Web Hosting, Domains, and Deployment Basics</li>
+      <li>Emerging Web Standards: CSS3, Web 2.0 & Responsive Design</li>
+    </ul>
+  </section>
+
+  <section id="notes">
+    <h2>Theory Notes</h2>
+    <p>The study material for Web Technology is available below:</p>
+    <ul>
+      <li>
+        <a href="https://rgmcet.edu.in/assets/img/departments/CSE/materials/R15/3-2/Web%20Technologies.pdf" target="_blank">
+          Download Web Technology Study Material (PDF)
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="lab">
+    <h2>Lab Manual</h2>
+    <p>Below is the list of lab experiments for Web Technology 43. Each experiment helps you apply concepts in HTML, CSS, JavaScript, and more!</p>
+
+    <ol>
+      <li>
+        <strong>Experiment 1: Basic HTML Page</strong><br/>
+        <em>Aim:</em> Create a simple HTML page with headings, paragraphs, and lists.<br/>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Welcome&lt;/h1&gt;
+  &lt;p&gt;This is a basic HTML page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </li>
+      <li>
+        <strong>Experiment 2: Formatting & Hyperlinks</strong><br/>
+        <em>Aim:</em> Use text formatting tags and create internal and external links.<br/>
+        <pre><code>&lt;p&gt;&lt;b&gt;Bold Text&lt;/b&gt; and &lt;i&gt;Italic Text&lt;/i&gt;&lt;/p&gt;
+&lt;a href="https://example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code></pre>
+      </li>
+      <li>
+        <strong>Experiment 3: Tables and Images</strong><br/>
+        <em>Aim:</em> Create a page using tables and embed images.<br/>
+        <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Header 1&lt;/th&gt;
+    &lt;th&gt;Header 2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Data 1&lt;/td&gt;
+    &lt;td&gt;Data 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;img src="image.jpg" alt="Image Description"/&gt;</code></pre>
+      </li>
+      <li>
+        <strong>Download the Full Lab Manual (PDF)</strong><br/>
+        <em>Click the link below to download the complete lab manual:</em><br/>
+        <a href="https://mrcet.com/pdf/Lab%20Manuals/WT%20LAB%20MANUAL.pdf" target="_blank">Download Lab Manual PDF</a>
+      </li>
+    </ol>
+  </section>
+
+  <section id="reference">
+    <h2>Reference Links</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs - HTML</a></li>
+      <li><a href="https://www.w3schools.com/html/">W3Schools - HTML</a></li>
+      <li><a href="https://www.w3schools.com/css/">W3Schools - CSS</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs - CSS</a></li>
+      <li><a href="https://www.freecodecamp.org/learn/">FreeCodeCamp Web Development</a></li>
+      <li><a href="https://javascript.info/">JavaScript.info</a></li>
+      <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+      <li><a href="https://www.geeksforgeeks.org/web-development/">GeeksforGeeks Web Development</a></li>
+      <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Web Docs - JavaScript</a></li>
+      <li><a href="https://www.codecademy.com/learn/paths/web-development">Codecademy Web Development</a></li>
+      <li><a href="https://www.html5rocks.com/en/">HTML5 Rocks</a></li>
+      <li><a href="https://reactjs.org/docs/getting-started.html">React Official Documentation</a></li>
+      <li><a href="https://angular.io/docs">Angular Official Documentation</a></li>
+      <li><a href="https://vuejs.org/">Vue.js Official Documentation</a></li>
+      <li><a href="https://nodejs.org/en/docs/">Node.js Official Documentation</a></li>
+      <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap Documentation</a></li>
+      <li><a href="https://web.dev/learn/">Web.dev by Google</a></li>
+      <li><a href="https://alistapart.com/">A List Apart</a></li>
+      <li><a href="https://stackoverflow.com/questions/tagged/web-development">Stack Overflow Web Development</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Web Technology 43. All rights reserved.</p>
+  </footer>
+</body>
+</html>
